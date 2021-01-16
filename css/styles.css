@@ -151,7 +151,7 @@ a:hover {
     text-decoration: none;
   }
 
- /*@media screen and (max-width: 650px)  {
+ @media screen and (max-width: 475px)  {
     
 
 
@@ -161,4 +161,4 @@ a:hover {
        
     }
   }
-*/
+
