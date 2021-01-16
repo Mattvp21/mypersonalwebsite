@@ -93,6 +93,8 @@ a:hover {
     margin-top: 5%;
 }
 
+
+
 .picguitar {
     float: left;
     margin-right: 30px;
@@ -153,7 +155,10 @@ a:hover {
 
  @media screen and (max-width: 475px)  {
     
-
+    .mountain   {
+    position: relative;
+    width: 50%;
+}
 
 
     .top-container, .bottom-container  {
