@@ -52,13 +52,14 @@ a:hover {
     position: absolute;
     left: 300px;
     bottom: 300px;
+   
 }
 
 .bottom-container {
     background-color: #66bfbf;
     line-height: 2;
     margin-top: 100px;
-    padding: 50px 0;
+    padding: 5rem 0;
 }
 
 .copyright {
@@ -106,6 +107,8 @@ a:hover {
 .pro {
     text-decoration: underline;
 }
+
+
 
 .skill-row {
     width:70%;
@@ -162,17 +165,32 @@ a:hover {
     text-decoration: none;
   }
 
- @media screen and (max-width: 475px)  {
+ @media screen and (max-width: 700px)  {
+
+    body {
+        margin: 0;
+        font-size: 130%;
+    }
+
+    .top-cloud, .bottom-cloud {
+        display: none;
+    }
+
+    .programmer {
+        z-index: 1;
+    }
     
     .mountain   {
     position: relative;
-    width: 50%;
+    width: 80%;
 }
 
 
-    .top-container, .bottom-container  {
-        width: 75vh;
-       
+
+    .top-container, .middle-container, .bottom-container  {
+        position: relative;
+        
+       width: 100%;
     }
   }
 
