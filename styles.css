@@ -79,7 +79,8 @@ a:hover {
     color: #11999E;
     text-decoration: none;
     text-emphasis-color: white;
-    
+   position: relative;
+   padding: 3rem;
 }
 
 .intro {
