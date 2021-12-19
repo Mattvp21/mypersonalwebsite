@@ -77,9 +77,10 @@ a:hover {
     height:250px;
 }
 
-/*.codeskill {
-    clear: right;
-}*/
+.codeskill {
+    text-align: left;
+    padding: 0 4rem 0 0
+}
 
 
 .footer-link {
@@ -96,7 +97,7 @@ a:hover {
 }
 
 .inverse{
-    animation: slideright .5s ease-in;
+    animation: slideright 1s ease-in;
 }
 
 .middle-container {
@@ -119,14 +120,15 @@ a:hover {
 
 
 .skill-row {
-    width:70%;
+    width: 80%;
     line-height: 1.5;
     margin:100px auto 100px auto;
-    text-align: left;
+    
 }
 .skills-language {
-    text-align: left;
+    text-align: center;
     list-style: square;
+    list-style-position: inside;
 }
 
 .skills__tech-header {
