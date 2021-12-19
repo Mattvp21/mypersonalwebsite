@@ -97,7 +97,11 @@ a:hover {
 }
 
 .inverse{
+<<<<<<< HEAD
     animation: slideright 1s ease-in;
+=======
+    animation: slideright .5s ease-in;
+>>>>>>> c227e83ef580cafb36eaa48fbec1ee68e6f4edbe
 }
 
 .middle-container {
